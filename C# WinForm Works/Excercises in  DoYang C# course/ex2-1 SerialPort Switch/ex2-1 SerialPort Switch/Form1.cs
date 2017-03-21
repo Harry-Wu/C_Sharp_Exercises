@@ -100,5 +100,29 @@ namespace ex2_1_SerialPort_Switch
         {
 
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_Click(object sender, EventArgs e)
+        {
+            if (serialPort1.IsOpen)
+            {
+                try
+                {
+                    serialPort1.WriteLine("TRACK0");//写数据,INDEP mode
+                }
+                catch
+                {
+                    MessageBox.Show("数据写入错误", "错误");//出错提示
+                }
+            }
+            else
+            {
+                MessageBox.Show("请先打开串口", "错误");
+            }
+        }
     }
 }
