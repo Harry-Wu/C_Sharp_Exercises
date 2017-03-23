@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ex2_1_SerialPort_Switch.Properties {
+namespace INSTEK_GPD_Controller.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ex2_1_SerialPort_Switch.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ex2_1_SerialPort_Switch.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("INSTEK_GPD_Controller.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

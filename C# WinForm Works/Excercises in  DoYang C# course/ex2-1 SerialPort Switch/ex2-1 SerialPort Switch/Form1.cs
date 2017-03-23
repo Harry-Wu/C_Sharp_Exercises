@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ex2_1_SerialPort_Switch.Properties;
+using INSTEK_GPD_Controller.Properties;
 
 namespace ex2_1_SerialPort_Switch
 {
@@ -65,6 +65,7 @@ namespace ex2_1_SerialPort_Switch
                     serialPort1.Open();  //打开端口
                     btnSerial.Text = "关闭串口";
                     btnSerial.BackColor = Color.Chartreuse;
+                    serialPort1.WriteLine("*IDN?");
                 }
                 catch 
                 {
@@ -141,14 +142,14 @@ namespace ex2_1_SerialPort_Switch
                     WriteStringToSerialPort("OUT", "0");
                     btnOutput.BackgroundImage = Resources.OFF;  //灭
                     _outputStatue = false;
-                    textBox1.Text = "24";
+                    //textBox1.Text = "24";
                 }
                 else
                 {
                     WriteStringToSerialPort("OUT", "1");
                     btnOutput.BackgroundImage = Resources.ON;  //开
                     _outputStatue = true;
-                    textBox2.Text = "3.1";
+                    //textBox2.Text = "3.1";
                 }
             }
 

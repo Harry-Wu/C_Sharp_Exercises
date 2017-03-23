@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ex2-1 SerialPort Switch")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("wuxiaohuaer@gmail.com")]
+[assembly: AssemblyDescription("INSTEK GPD Controller")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ex2-1 SerialPort Switch")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Astera")]
+[assembly: AssemblyProduct("INSTEK GPD PowerSupply Controller")]
+[assembly: AssemblyCopyright("Copyright ©  2017, Harry Wu")]
+[assembly: AssemblyTrademark("wuxiaohuaer@gmail.com")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
